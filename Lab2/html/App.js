@@ -15,8 +15,8 @@
     longtxt =  `Skill language programming ${obj.skils[2]} 
                 Name : ${obj.name} 
                 Position : ${data.position}`
-
+    console.log(longtxt)
     //run j query
     $(function(){
-        $("#longtxt").html(longtxt)
+        $("#longtxt").html(longtxt)     
     })
