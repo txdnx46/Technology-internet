@@ -1,5 +1,4 @@
 <?php
-
     $host = "db";
     $username = "root";
     $password = "1234";
@@ -7,7 +6,7 @@
 
     try{
         $conn = mysqli_connect($host,$username,$password,$db);
-        mysqli_query($conn,"SET NAME utf8");
+        mysqli_query($conn,"SET NAMES utf8");
     }
     catch(Exception $e){
         echo $e->getMessage();
